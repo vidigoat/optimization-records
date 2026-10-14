@@ -14,7 +14,7 @@ On T² = [0, 2π]² take u(x) = Σ c_k e^{ik·x} over the lattice points 0 < |k|
 c_k = 1 / (|k|²(|k|² + μ)) and μ = 41/5. This is the conditional extremal of Bartuccelli, Deane and
 Zelik (2013), truncated. u is real (c_k = c_{−k}) and has zero mean. By Parseval,
 ‖∇u‖² = (2π)² S₁ and ‖Δu‖² = (2π)² S₂, and u(0) = S₀, where S₀ = Σ c_k, S₁ = Σ |k|² c_k², S₂ = Σ |k|⁴ c_k².
-So δ = S₂/S₁ ≈ 4.0 ≥ 1, and
+So δ = S₂/S₁ ≈ 3.93181 ≥ 1, and
 
     L ≥ S₀² / (π S₁) − ln δ − ln(1 + ln δ) = 2.15622475…
 
