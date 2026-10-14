@@ -42,14 +42,28 @@ dimension.
 log-concave. With A = (−∞, 0], μ(A) = 1/2 and μ⁺(A) is the density at 0, 1/(2√3). So ψ_μ ≥ √3 and
 C ≥ √3 ≈ 1.732051, against the listed √(π/2) ≈ 1.253314.
 
-## 70a. Reverse Brunn–Minkowski constant: C ≥ √(1/2 + 1/√π) ≈ 1.031596
+## 70a. Reverse Brunn–Minkowski constant: C ≥ 1.20192
 
-C is the least constant such that every pair of symmetric convex bodies has some u with |det u| = 1
-and |u(B₁) + B₂|^{1/n} ≤ C(|B₁|^{1/n} + |B₂|^{1/n}). Take n = 2, B₁ a square of side a = √π, and B₂
-the unit disk. For any u with |det u| = 1, u(B₁) is a parallelogram P of area π. If its sides are p
-and q with angle t, then π = pq sin t ≤ pq, so its perimeter 2(p + q) ≥ 4√(pq) ≥ 4√π. By Steiner's
-formula, |P + B₂| = |P| + per(P)·1 + π ≥ 2π + 4√π for every u. Since |B₁|^{1/2} + |B₂|^{1/2} = 2√π,
-every u gives a ratio of at least √(2π + 4√π) / (2√π) = √(1/2 + 1/√π).
+C is the least constant such that every pair of symmetric convex bodies in every dimension n has some
+u with |det u| = 1 and |u(B₁) + B₂|^{1/n} ≤ C(|B₁|^{1/n} + |B₂|^{1/n}). Take B₁ = [0, a]ⁿ (a cube, after
+centring) and B₂ = rB, the ball of radius r. Let κ_m be the volume of the unit m-ball.
 
-`rbm.py` evaluates the constant in interval arithmetic and checks the inequality on 200,000 random
-maps with determinant 1 (the smallest ratio found is 1.031603, at the square position).
+Let |det u| = 1. Then P = u(B₁) is a parallelotope spanned by vectors v₁, …, vₙ with |P| = aⁿ.
+
+1. Steiner's formula: |P + rB| = Σ_j V_j(P) κ_{n−j} r^{n−j}, where V_j are the intrinsic volumes.
+2. A parallelotope is a zonotope, so V_j(P) = Σ_{|S| = j} vol_j(parallelotope spanned by v_i, i ∈ S).
+3. Let G be the Gram matrix of the v_i. Then vol_j(face_S)² = det G_S and |P|² = det G. Szász's
+   inequality (products of principal minors of a positive definite matrix) gives
+   Π_{|S|=j} det G_S ≥ (det G)^{C(n−1, j−1)}, so Π_S vol_j(face_S) ≥ a^{n·C(n−1, j−1)}.
+4. By AM–GM, V_j(P) ≥ C(n, j)·(Π_S vol_j)^{1/C(n, j)} ≥ C(n, j) a^j, since C(n−1, j−1)/C(n, j) = j/n.
+
+So |u(B₁) + rB| ≥ Σ_j C(n, j) a^j κ_{n−j} r^{n−j} = |B₁ + rB| for every u: the cube and the ball are
+already in their worst relative position. As |B₁|^{1/n} + |B₂|^{1/n} = a + κₙ^{1/n} r,
+
+    C ≥ (Σ_j C(n, j) a^j κ_{n−j} r^{n−j})^{1/n} / (a + κₙ^{1/n} r)   for every n, a, r.
+
+For n = 2 this is √(1/2 + 1/√π) ≈ 1.0316 (a square and a disk; `rbm.py` also checks this case on
+random maps). The value grows with n: 1.0534 (n = 3), 1.1181 (n = 10), 1.1847 (n = 100), 1.2016
+(n = 10,000), and 1.201927 at n = 300,000 with a/r = 0.013. `rbm_cube.py` evaluates the sum in
+interval arithmetic, with the binomials and ball volumes from exact recursions
+(κ_m = κ_{m−2}·2π/m), so the printed lower end is rigorous.

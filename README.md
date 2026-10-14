@@ -16,11 +16,13 @@ Four improved lower bounds for entries of the
 | 16a | Brezis–Gallouët–Wainger remainder constant on the 2D torus | 1.82283 | **2.156210** (rigorous) | a trigonometric polynomial with about 4.5 million terms | `python3 tao/bgw.py --K 1200 --mu 42/5` |
 | 20a | Thin-shell constant (variance form) | 2 | **8** | a centred exponential random variable | `python3 tao/elementary.py` |
 | 20c | KLS constant | √(π/2) ≈ 1.2533 | **√3 ≈ 1.7321** | the uniform distribution on [−√3, √3], cut at 0 | `python3 tao/elementary.py` |
-| 70a | Reverse Brunn–Minkowski constant | 1 | **√(1/2 + 1/√π) ≈ 1.0316** | a square and a disk | `python3 tao/rbm.py` |
+| 70a | Reverse Brunn–Minkowski constant | 1 | **1.20192** (rigorous) | a cube and a ball in 300,000 dimensions | `python3 tao/rbm_cube.py --n 300000 --t 0.013` |
 
 16a turns the value the 2013 source computed numerically (≈ 2.15627) into a proved bound for the
-first time: 2.156210, from an explicit function evaluated in interval arithmetic. The other three
-replace a classical example in the table with a better one. All four arguments are in
+first time: 2.156210, from an explicit function evaluated in interval arithmetic. 70a replaces the
+trivial bound 1 with 1.20192, using Szász's inequality to show that a cube and a ball are already in
+their worst relative position in every dimension. 20a and 20c replace a classical example in the
+table with a better one. All four arguments are in
 [tao/PROOFS.md](tao/PROOFS.md).
 
 ### Packomania world records

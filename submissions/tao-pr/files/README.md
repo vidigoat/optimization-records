@@ -108,7 +108,7 @@ Bounds for which the level of available verification is currently at minimal lev
 | [67](https://teorth.github.io/optimizationproblems/constants/67a.html) | Brennan's conjecture exponent | 3.422 | 4 |
 | [68](https://teorth.github.io/optimizationproblems/constants/68a.html) | Korenblum's constant | 0.3554 | 0.6778994 |
 | [69](https://teorth.github.io/optimizationproblems/constants/69a.html) | Sendov radius constant | 1 | 2 |
-| [70](https://teorth.github.io/optimizationproblems/constants/70a.html) | Reverse Brunn-Minkowski constant | $\sqrt{1/2+1/\sqrt{\pi}} \approx 1.03160$ | $<\infty$ |
+| [70](https://teorth.github.io/optimizationproblems/constants/70a.html) | Reverse Brunn-Minkowski constant | $1.201927$ | $<\infty$ |
 | [71](https://teorth.github.io/optimizationproblems/constants/71a.html) | Fourier Entropy-Influence constant | 6.278 (6.521845710923046575*) | $\infty$ |
 | [72](https://teorth.github.io/optimizationproblems/constants/72a.html) | Polya-Vinogradov best constant (squarefree asymptotic) | 0 | $\frac{1}{4\pi}\approx 0.07958$ |
 | [73](https://teorth.github.io/optimizationproblems/constants/73a.html) | Flatness constant in dimension 3 | $2+\sqrt{2}$ | $<3.972$ |
@@ -179,7 +179,7 @@ Bounds for which the level of available verification is currently at minimal lev
 - [16](https://teorth.github.io/optimizationproblems/constants/16a.html) **improved lower bound:** $C\_{16} \geq 2.156210$ (rigorous) by [V. Patankar](https://github.com/vidigoat/optimization-records), 14 Oct 2026.
 - [20a](https://teorth.github.io/optimizationproblems/constants/20a.html) **improved lower bound:** $C\_{20a} \geq 8$ by [V. Patankar](https://github.com/vidigoat/optimization-records), 14 Oct 2026.
 - [20c](https://teorth.github.io/optimizationproblems/constants/20c.html) **improved lower bound:** $C\_{20c} \geq \sqrt{3}$ by [V. Patankar](https://github.com/vidigoat/optimization-records), 14 Oct 2026.
-- [70](https://teorth.github.io/optimizationproblems/constants/70a.html) **improved lower bound:** $C\_{70} \geq \sqrt{1/2+1/\sqrt{\pi}} \approx 1.031596$ by [V. Patankar](https://github.com/vidigoat/optimization-records), 14 Oct 2026.
+- [70](https://teorth.github.io/optimizationproblems/constants/70a.html) **improved lower bound:** $C\_{70} \geq 1.201927$ (rigorous) by [V. Patankar](https://github.com/vidigoat/optimization-records), 14 Oct 2026.
 
 ## Maintainers
 
