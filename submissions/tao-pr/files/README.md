@@ -42,7 +42,7 @@ Bounds for which the level of available verification is currently at minimal lev
 | [14](https://teorth.github.io/optimizationproblems/constants/14a.html) | Smallest $n$ for which the value of $BB(n)$ is undecidable | 6 | 432 |
 | [15a](https://teorth.github.io/optimizationproblems/constants/15a.html) | Matrix multiplication exponent | 2 | 2.371177 |
 | [15b](https://teorth.github.io/optimizationproblems/constants/15b.html) | Dual matrix multiplication exponent | >0.321334 | 1 |
-| [16](https://teorth.github.io/optimizationproblems/constants/16a.html) | Brezis–Gallouet–Wainger remainder constant on the 2D torus | $2.156210$ | $\approx 2.15627$ |
+| [16](https://teorth.github.io/optimizationproblems/constants/16a.html) | Brezis–Gallouet–Wainger remainder constant on the 2D torus | $2.156224$ | $\approx 2.15627$ |
 | [17](https://teorth.github.io/optimizationproblems/constants/17a.html) | Exponential growth constant of diagonal Ramsey numbers | $\sqrt{2} \approx 1.4142$ | 3.7919936995 |
 | [18](https://teorth.github.io/optimizationproblems/constants/18a.html) | Marton's conjecture constant (PFR) | 1 | 9 |
 | [19](https://teorth.github.io/optimizationproblems/constants/19a.html) | Berry–Esseen constant | 0.4097321837 | 0.4690 (0.423*) |
@@ -176,7 +176,7 @@ Bounds for which the level of available verification is currently at minimal lev
 - [47](https://teorth.github.io/optimizationproblems/constants/47a.html) **improved upper bound:** $C_{47} \leq 3.879$ by [Y. Lin](https://github.com/CoolRmal/centered-maximal-constant), 20 Sep 2026, formalized in Lean 4.
 - [45](https://teorth.github.io/optimizationproblems/constants/45a.html) **presentation:** the printed certificate is Griego's $0.490249407811155$, not Yoo's record $0.490180063290061$.
 - [10c](https://teorth.github.io/optimizationproblems/constants/10c.html) **upper bound correction:** $C_{10c}\le 4.1$ by [Pesenti–Vladu](https://arxiv.org/abs/2211.05509) v2 (14 Apr 2026), replacing the withdrawn $3\sqrt{3/2}$ constant in Theorem 4.5.
-- [16](https://teorth.github.io/optimizationproblems/constants/16a.html) **improved lower bound:** $C\_{16} \geq 2.156210$ (rigorous) by [V. Patankar](https://github.com/vidigoat/optimization-records), 14 Oct 2026.
+- [16](https://teorth.github.io/optimizationproblems/constants/16a.html) **improved lower bound:** $C\_{16} \geq 2.156224$ (rigorous) by [V. Patankar](https://github.com/vidigoat/optimization-records), 14 Oct 2026.
 - [20a](https://teorth.github.io/optimizationproblems/constants/20a.html) **improved lower bound:** $C\_{20a} \geq 8$ by [V. Patankar](https://github.com/vidigoat/optimization-records), 14 Oct 2026.
 - [20c](https://teorth.github.io/optimizationproblems/constants/20c.html) **improved lower bound:** $C\_{20c} \geq \sqrt{3}$ by [V. Patankar](https://github.com/vidigoat/optimization-records), 14 Oct 2026.
 - [70](https://teorth.github.io/optimizationproblems/constants/70a.html) **improved lower bound:** $C\_{70} \geq 1.201927$ (rigorous) by [V. Patankar](https://github.com/vidigoat/optimization-records), 14 Oct 2026.

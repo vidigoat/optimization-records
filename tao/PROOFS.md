@@ -4,25 +4,25 @@ Each bound comes from one explicit object. Each script in this folder recomputes
 arguments below show why the value is a valid bound. Definitions follow the pages of Terence Tao's
 [optimization constants repository](https://github.com/teorth/optimizationproblems).
 
-## 16a. Brezis–Gallouët–Wainger remainder constant: L ≥ 2.156210
+## 16a. Brezis–Gallouët–Wainger remainder constant: L ≥ 2.156224
 
 L is defined as max over δ ≥ 1 of 4πΘ(δ) − ln δ − ln(1 + ln δ), where Θ(δ) is the supremum of
 |u(0)|² over zero-mean u on the torus with ‖∇u‖² = 1 and ‖Δu‖² = δ. Any single admissible u therefore
 gives L ≥ 4π|u(0)|²/‖∇u‖² − ln δ(u) − ln(1 + ln δ(u)), provided δ(u) ≥ 1.
 
-On T² = [0, 2π]² take u(x) = Σ c_k e^{ik·x} over the lattice points 0 < |k|² ≤ 1200², with
-c_k = 1 / (|k|²(|k|² + μ)) and μ = 42/5. This is the conditional extremal of Bartuccelli, Deane and
+On T² = [0, 2π]² take u(x) = Σ c_k e^{ik·x} over the lattice points 0 < |k|² ≤ 4000², with
+c_k = 1 / (|k|²(|k|² + μ)) and μ = 41/5. This is the conditional extremal of Bartuccelli, Deane and
 Zelik (2013), truncated. u is real (c_k = c_{−k}) and has zero mean. By Parseval,
 ‖∇u‖² = (2π)² S₁ and ‖Δu‖² = (2π)² S₂, and u(0) = S₀, where S₀ = Σ c_k, S₁ = Σ |k|² c_k², S₂ = Σ |k|⁴ c_k².
-So δ = S₂/S₁ ≈ 3.98730 ≥ 1, and
+So δ = S₂/S₁ ≈ 4.0 ≥ 1, and
 
-    L ≥ S₀² / (π S₁) − ln δ − ln(1 + ln δ) = 2.15621085…
+    L ≥ S₀² / (π S₁) − ln δ − ln(1 + ln δ) = 2.15622475…
 
 `bgw.py` computes the three sums over n = |k|², weighted by the number of lattice points with
 |k|² = n, in interval arithmetic (mpmath.iv, 40 digits), so the printed lower end is rigorous. The
 interval has width about 10⁻³⁴. The torus normalisation agrees with the source: as the cutoff grows,
 the value approaches the 2013 paper's numerical value 2.15627 (cutoff 50: 2.15174; 200: 2.15592;
-800: 2.15621).
+800: 2.15621; 4000: 2.156225).
 
 ## 20a. Thin-shell constant (variance form): C ≥ 8
 

@@ -5,7 +5,7 @@ https://github.com/vidigoat/optimization-records (see `tao/PROOFS.md`).
 
 | const | side | was | now | object |
 |---|---|---|---|---|
-| 16a | lower | (β+π)/π ≈ 1.82283 | 2.156210 (rigorous) | truncated BDZ conditional extremal on [0,2π]², 0 < \|k\|² ≤ 1200², μ = 42/5, evaluated in interval arithmetic |
+| 16a | lower | (β+π)/π ≈ 1.82283 | 2.156224 (rigorous) | truncated BDZ conditional extremal on [0,2π]², 0 < \|k\|² ≤ 4000², μ = 41/5, evaluated in interval arithmetic |
 | 20a | lower | 2 | 8 | n = 1, X = E − 1 with E standard exponential: Var(X²) = 9 − 1 |
 | 20c | lower | √(π/2) | √3 | n = 1, uniform on [−√3, √3], A = (−∞, 0] |
 | 70a | lower | 1 | 1.201927 (rigorous) | cube and ball in n = 300,000; Szász's inequality shows the cube is already in its worst position, then Steiner's formula |
