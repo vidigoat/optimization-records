@@ -1,6 +1,5 @@
-diff -ru a/optimizationproblems/README.md b/optimizationproblems/README.md
---- a/optimizationproblems/README.md	2026-09-26 22:37:53
-+++ b/optimizationproblems/README.md	2026-10-14 22:38:09
+--- a/README.md	2026-09-26 22:37:53
++++ b/README.md	2026-10-14 23:49:51
 @@ -42,13 +42,13 @@
  | [14](https://teorth.github.io/optimizationproblems/constants/14a.html) | Smallest $n$ for which the value of $BB(n)$ is undecidable | 6 | 432 |
  | [15a](https://teorth.github.io/optimizationproblems/constants/15a.html) | Matrix multiplication exponent | 2 | 2.371177 |
@@ -23,7 +22,7 @@ diff -ru a/optimizationproblems/README.md b/optimizationproblems/README.md
  | [68](https://teorth.github.io/optimizationproblems/constants/68a.html) | Korenblum's constant | 0.3554 | 0.6778994 |
  | [69](https://teorth.github.io/optimizationproblems/constants/69a.html) | Sendov radius constant | 1 | 2 |
 -| [70](https://teorth.github.io/optimizationproblems/constants/70a.html) | Reverse Brunn-Minkowski constant | 1 | $<\infty$ |
-+| [70](https://teorth.github.io/optimizationproblems/constants/70a.html) | Reverse Brunn-Minkowski constant | $\sqrt{1/2+1/\sqrt{\pi}} \approx 1.03160$ | $<\infty$ |
++| [70](https://teorth.github.io/optimizationproblems/constants/70a.html) | Reverse Brunn-Minkowski constant | $1.201927$ | $<\infty$ |
  | [71](https://teorth.github.io/optimizationproblems/constants/71a.html) | Fourier Entropy-Influence constant | 6.278 (6.521845710923046575*) | $\infty$ |
  | [72](https://teorth.github.io/optimizationproblems/constants/72a.html) | Polya-Vinogradov best constant (squarefree asymptotic) | 0 | $\frac{1}{4\pi}\approx 0.07958$ |
  | [73](https://teorth.github.io/optimizationproblems/constants/73a.html) | Flatness constant in dimension 3 | $2+\sqrt{2}$ | $<3.972$ |
@@ -34,13 +33,12 @@ diff -ru a/optimizationproblems/README.md b/optimizationproblems/README.md
 +- [16](https://teorth.github.io/optimizationproblems/constants/16a.html) **improved lower bound:** $C\_{16} \geq 2.156210$ (rigorous) by [V. Patankar](https://github.com/vidigoat/optimization-records), 14 Oct 2026.
 +- [20a](https://teorth.github.io/optimizationproblems/constants/20a.html) **improved lower bound:** $C\_{20a} \geq 8$ by [V. Patankar](https://github.com/vidigoat/optimization-records), 14 Oct 2026.
 +- [20c](https://teorth.github.io/optimizationproblems/constants/20c.html) **improved lower bound:** $C\_{20c} \geq \sqrt{3}$ by [V. Patankar](https://github.com/vidigoat/optimization-records), 14 Oct 2026.
-+- [70](https://teorth.github.io/optimizationproblems/constants/70a.html) **improved lower bound:** $C\_{70} \geq \sqrt{1/2+1/\sqrt{\pi}} \approx 1.031596$ by [V. Patankar](https://github.com/vidigoat/optimization-records), 14 Oct 2026.
++- [70](https://teorth.github.io/optimizationproblems/constants/70a.html) **improved lower bound:** $C\_{70} \geq 1.201927$ (rigorous) by [V. Patankar](https://github.com/vidigoat/optimization-records), 14 Oct 2026.
  
  ## Maintainers
  
-diff -ru a/optimizationproblems/constants/16a.md b/optimizationproblems/constants/16a.md
---- a/optimizationproblems/constants/16a.md	2026-09-26 22:37:53
-+++ b/optimizationproblems/constants/16a.md	2026-10-14 22:38:09
+--- a/constants/16a.md	2026-09-26 22:37:53
++++ b/constants/16a.md	2026-10-14 22:38:23
 @@ -33,6 +33,7 @@
  | Bound | Reference | Comments |
  |---|---|---|
@@ -57,9 +55,8 @@ diff -ru a/optimizationproblems/constants/16a.md b/optimizationproblems/constant
  
  ## Contribution notes
  
-diff -ru a/optimizationproblems/constants/20a.md b/optimizationproblems/constants/20a.md
---- a/optimizationproblems/constants/20a.md	2026-09-26 22:37:53
-+++ b/optimizationproblems/constants/20a.md	2026-10-14 22:38:09
+--- a/constants/20a.md	2026-09-26 22:37:53
++++ b/constants/20a.md	2026-10-14 22:38:23
 @@ -68,6 +68,7 @@
  | $0$ | Trivial | By definition. |
  | $4/5 = 0.8$ | [KL2025] | Achieved by the cube (for the variance formulation). |
@@ -76,9 +73,8 @@ diff -ru a/optimizationproblems/constants/20a.md b/optimizationproblems/constant
  
  # Acknowledgements
  
-diff -ru a/optimizationproblems/constants/20c.md b/optimizationproblems/constants/20c.md
---- a/optimizationproblems/constants/20c.md	2026-09-26 22:37:53
-+++ b/optimizationproblems/constants/20c.md	2026-10-14 22:38:09
+--- a/constants/20c.md	2026-09-26 22:37:53
++++ b/constants/20c.md	2026-10-14 22:38:23
 @@ -69,6 +69,7 @@
  | Bound | Reference | Comments |
  | ----- | --------- | -------- |
@@ -95,14 +91,13 @@ diff -ru a/optimizationproblems/constants/20c.md b/optimizationproblems/constant
  
  ## Contribution notes
  
-diff -ru a/optimizationproblems/constants/70a.md b/optimizationproblems/constants/70a.md
---- a/optimizationproblems/constants/70a.md	2026-09-26 22:37:53
-+++ b/optimizationproblems/constants/70a.md	2026-10-14 22:38:09
+--- a/constants/70a.md	2026-09-26 22:37:53
++++ b/constants/70a.md	2026-10-14 23:49:51
 @@ -51,6 +51,7 @@
  | Bound | Reference | Comments |
  | ----- | --------- | -------- |
  | $1$ |  | Trivial scaling lower bound. |
-+| $\sqrt{1/2+1/\sqrt{\pi}}\approx 1.031596$ | [Pat2026] | $n=2$, $B\_1$ a square of side $\sqrt\pi$, $B\_2$ the unit disk. For $\lvert\det u\rvert=1$, $u(B\_1)$ is a parallelogram of area $\pi$ and perimeter at least $4\sqrt\pi$, so by Steiner's formula $\lvert u(B\_1)+B\_2\rvert\ge 2\pi+4\sqrt\pi$ for every $u$, while $\lvert B\_1\rvert^{1/2}+\lvert B\_2\rvert^{1/2}=2\sqrt\pi$. |
++| $1.201927$ | [Pat2026] | Cube $B\_1=[0,a]^n$ and ball $B\_2=rB$ with $n=300000$, $a/r=0.013$. For $\lvert\det u\rvert=1$, $u(B\_1)$ is a parallelotope; its intrinsic volumes are sums of $j$-face volumes, and Szász's inequality on its Gram matrix with AM–GM gives $V\_j(u(B\_1))\ge\binom{n}{j}a^j$, so by Steiner's formula $\lvert u(B\_1)+rB\rvert\ge\sum\_j\binom{n}{j}a^j\kappa\_{n-j}r^{n-j}$ for every $u$. Hence $C\_{70}\ge(\sum\_j\binom{n}{j}a^j\kappa\_{n-j}r^{n-j})^{1/n}/(a+\kappa\_n^{1/n}r)$; evaluated in interval arithmetic. ($n=2$ gives $\sqrt{1/2+1/\sqrt\pi}\approx1.0316$; the value increases with $n$.) |
  
  ## Additional comments and links
  
