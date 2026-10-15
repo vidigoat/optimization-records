@@ -1,6 +1,6 @@
 # Optimization records
 
-New best-known bounds and world-record packings, each with a script that checks it.
+New best-known bounds, world-record packings and record error-correcting codes, each with a script that checks it.
 
 **Vidit Patankar**, October 2026.
 
@@ -50,6 +50,22 @@ all:
 ```
 python3 packomania/verify_all.py packomania/packings.zip
 ```
+
+### codetables.de record codes
+
+Four linear codes over GF(5) with a larger minimum distance than the best known codes in Markus
+Grassl's [tables](http://www.codetables.de). Those entries were last changed between 2001 and 2008.
+
+| Code | Listed lower bound | Ours | Upper bound |
+|---|---|---|---|
+| [27, 10] over GF(5) | 12 | **13** | 14 |
+| [64, 10] over GF(5) | 38 | **39** | 44 |
+| [81, 10] over GF(5) | 50 | **51** | 57 |
+| [82, 10] over GF(5) | 51 | **52** | 58 |
+
+They came from Construction X applied to nested constacyclic codes. Each generator matrix is in
+`codes/`. The minimum distance is checked exactly by enumerating all 5^10 codewords:
+`cc -O3 -o mindist codes/mindist.c && python3 codes/check_all.py`.
 
 ## How the search worked
 
