@@ -1,10 +1,10 @@
-"""Check the record codes: rank and exact minimum distance by enumerating every codeword.
+"""Check the four record codes: rank and exact minimum distance, by enumerating every codeword.
 
-    cc -O3 -o mindist codes/mindist.c && python3 codes/check_all.py
+    mkdir -p bin && cc -O3 -o bin/mindist codetables/mindist.c && python3 codetables/check_all.py
 """
 import glob, os, subprocess, sys
 here = os.path.dirname(os.path.abspath(__file__))
-BIN = os.path.join(os.path.dirname(here), "mindist")
+BIN = os.path.join(os.path.dirname(here), "bin", "mindist")
 TABLE = {(27, 10): 12, (64, 10): 38, (81, 10): 50, (82, 10): 51}   # codetables.de lower bounds, 15 Oct 2026
 for path in sorted(glob.glob(os.path.join(here, "gf5_*.txt"))):
     G = [list(map(int, l.split())) for l in open(path) if l.strip() and not l.startswith("#")]

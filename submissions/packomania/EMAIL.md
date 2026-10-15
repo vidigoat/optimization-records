@@ -14,7 +14,7 @@ Packomania: unit square or cube centred at the origin, circle or sphere of radiu
 
 I checked every packing in exact rational arithmetic: all objects inside the container, no two
 overlapping, and a radius strictly larger than the published one. The checker is included in the zip
-(`verify_packings.py`) and in https://github.com/vidigoat/optimization-records.
+(`verify_packings.py`) and in https://github.com/vidigoat/optimization-records/tree/main/packomania.
 
 Many of these entries had a smaller radius than a packing with more objects listed in the same
 table. I started from those larger packings with objects removed and then re-optimised each one, so

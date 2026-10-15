@@ -34,7 +34,7 @@ def area_sum(u, a, r):
 if __name__ == "__main__":
     b = bound()
     mp.dps = 15
-    print(f"70a: C_RBM >= sqrt(1/2 + 1/sqrt(pi)) in [{mp.nstr(b.a, 12)}, {mp.nstr(b.b, 12)}], versus the table's trivial 1")
+    print(f"70a: C_RBM >= sqrt(1/2 + 1/sqrt(pi)) in [{mp.nstr(mp.mpf(b.a.a), 12)}, {mp.nstr(mp.mpf(b.b.b), 12)}], versus the table's trivial 1")
     r = 1.0
     a = math.sqrt(math.pi) * r
     worst = math.inf

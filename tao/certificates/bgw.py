@@ -9,7 +9,7 @@ with S0 = sum c_k, S1 = sum |k|^2 c_k^2, S2 = sum |k|^4 c_k^2, and since ||u||_i
 valid because delta >= 1. All sums run over n = |k|^2 with multiplicity r2(n) and are evaluated in
 interval arithmetic (mpmath.iv), so the printed lower end is a rigorous bound.
 
-    python3 tao/bgw.py --K 800 --mu 41/5
+    python3 tao/certificates/bgw.py --K 800 --mu 41/5
 """
 import argparse
 from fractions import Fraction
@@ -48,5 +48,5 @@ if __name__ == "__main__":
     a = ap.parse_args()
     v, d = certify(a.K, Fraction(a.mu))
     mp.dps = 20
-    print(f"K = {a.K}, mu = {a.mu}: delta in [{mp.nstr(d.a, 12)}, {mp.nstr(d.b, 12)}] (>= 1)")
-    print(f"L >= {mp.nstr(v.a, 15)}   (interval width {mp.nstr(v.b - v.a, 3)}); table's lower bound: 1.82283")
+    print(f"K = {a.K}, mu = {a.mu}: delta in [{mp.nstr(mp.mpf(d.a.a), 12)}, {mp.nstr(mp.mpf(d.b.b), 12)}] (>= 1)")
+    print(f"L >= {mp.nstr(mp.mpf(v.a.a), 15)}   (interval width {mp.nstr(mp.mpf(v.b.b) - mp.mpf(v.a.a), 3)}); table's lower bound: 1.82283")

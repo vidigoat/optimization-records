@@ -18,7 +18,7 @@ n = 2 this is the square-and-disk bound sqrt(1/2 + 1/sqrt(pi)) ~ 1.0316.
 The script evaluates the right-hand side in interval arithmetic (binomials and ball volumes by exact
 recursions, kappa_m = kappa_{m-2} 2 pi / m), so the printed lower end is rigorous.
 
-    python3 tao/rbm_cube.py --n 10000 --t 0.0709
+    python3 tao/certificates/rbm_cube.py --n 10000 --t 0.0709
 """
 import argparse
 from fractions import Fraction
@@ -48,4 +48,4 @@ if __name__ == "__main__":
     a = ap.parse_args()
     b = bound(a.n, Fraction(a.t))
     mp.dps = 20
-    print(f"70a: n = {a.n}, a/r = {a.t}: C_RBM >= {mp.nstr(b.a, 12)} (interval width {mp.nstr(b.b - b.a, 2)}); table: 1")
+    print(f"70a: n = {a.n}, a/r = {a.t}: C_RBM >= {mp.nstr(mp.mpf(b.a.a), 12)} (interval width {mp.nstr(mp.mpf(b.b.b) - mp.mpf(b.a.a), 2)}); table: 1")

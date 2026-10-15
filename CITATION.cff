@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use these results, please cite them as below."
+title: "Optimization records: new bounds for Tao's optimization constants, record Packomania packings and record linear codes"
+authors:
+  - family-names: Patankar
+    given-names: Vidit
+date-released: 2026-10-15
+version: "1.0"
+url: "https://github.com/vidigoat/optimization-records"
+license: MIT
