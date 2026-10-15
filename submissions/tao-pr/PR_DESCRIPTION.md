@@ -1,7 +1,5 @@
-# Improved bounds for 16a, 20a, 20c, 70a (lower) and 23b (upper)
-
-Four lower bounds, each from one explicit object, with a script that recomputes it:
-https://github.com/vidigoat/optimization-records (see `tao/PROOFS.md`).
+Four improved lower bounds and one improved upper bound, each from one explicit object or a short argument, with a script that recomputes it:
+https://github.com/vidigoat/optimization-records/tree/main/tao (proofs in `tao/PROOFS.md`, scripts in `tao/certificates/`).
 
 | const | side | was | now | object |
 |---|---|---|---|---|
@@ -23,6 +21,12 @@ u(cube) is at least the cube's, so no linear map helps; the resulting bound incr
 **20a, 20c** replace the Gaussian with a better explicit one-dimensional example; the arguments are in the
 Comments column of each new row.
 
+**23b** is an elementary argument for odd n (all off-diagonal Gram entries are odd, then the Bhatia–Davis
+inequality); it shows κ(n) − 1 ≥ (2 − √2)/√n for every odd n ≥ 3, so the decay exponent is at most 1/2.
+
 Each page gets a new row (earlier rows kept) and a reference entry; the README table and "Recent
 progress" are updated. Inline math follows the escaping rules in CONTRIBUTING (`\_`, `\lvert`), and
 each new row has three columns.
+
+Found with search and proof assistance from Claude (Anthropic); every value is recomputed by the linked scripts
+(`./check.sh` in the linked repository re-checks all of them in a few seconds).

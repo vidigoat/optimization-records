@@ -6,7 +6,7 @@
 
 | | Table | Result |
 |---|---|---|
-| 📐 | [Terence Tao's optimization constants](https://github.com/teorth/optimizationproblems) | **5 constants improved**, including a first rigorous bound for 16a and a new cube-and-ball proof for 70a |
+| 📐 | [Terence Tao's optimization constants](https://github.com/teorth/optimizationproblems) | **5 constants improved**, including a first rigorous bound for 16a and a new cube-and-ball proof for 70a ([pull request #226](https://github.com/teorth/optimizationproblems/pull/226)) |
 | 🔵 | [Packomania](http://www.packomania.com) (best packings of circles and spheres) | **2,072 packings** beat the published records, by up to 6.7% |
 | 📡 | [codetables.de](http://www.codetables.de) (best error-correcting codes) | **4 record codes**, beating entries unchanged since 2001–2008 |
 
