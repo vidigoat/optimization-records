@@ -8,15 +8,16 @@ New best-known bounds, world-record packings and record error-correcting codes, 
 
 ### Terence Tao's table of optimization constants
 
-Four improved lower bounds for entries of the
+Five improved bounds for entries of the
 [optimization constants repository](https://github.com/teorth/optimizationproblems).
 
-| Entry | Constant | Listed lower bound | New lower bound | Object | Check |
+| Entry | Constant | Listed bound | New bound | Object | Check |
 |---|---|---|---|---|---|
 | 16a | Brezis–Gallouët–Wainger remainder constant on the 2D torus | 1.82283 | **2.156224** (rigorous) | a trigonometric polynomial with about 50 million terms | `python3 tao/bgw.py --K 4000 --mu 41/5` |
 | 20a | Thin-shell constant (variance form) | 2 | **8** | a centred exponential random variable | `python3 tao/elementary.py` |
 | 20c | KLS constant | √(π/2) ≈ 1.2533 | **√3 ≈ 1.7321** | the uniform distribution on [−√3, √3], cut at 0 | `python3 tao/elementary.py` |
 | 70a | Reverse Brunn–Minkowski constant | 1 | **1.20192** (rigorous) | a cube and a ball in 300,000 dimensions | `python3 tao/rbm_cube.py --n 300000 --t 0.013` |
+| 23b | Decay rate of the best condition number of ±1 matrices (upper bound) | 1 | **1/2** | the Gram matrix of any odd-order ±1 matrix | proof in `tao/PROOFS.md` |
 
 16a turns the value the 2013 source computed numerically (≈ 2.15627) into a proved bound for the
 first time: 2.156224, from an explicit function evaluated in interval arithmetic. 70a replaces the

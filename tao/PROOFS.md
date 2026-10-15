@@ -67,3 +67,20 @@ random maps). The value grows with n: 1.0534 (n = 3), 1.1181 (n = 10), 1.1847 (n
 (n = 10,000), and 1.201927 at n = 300,000 with a/r = 0.013. `rbm_cube.py` evaluates the sum in
 interval arithmetic, with the binomials and ball volumes from exact recursions
 (κ_m = κ_{m−2}·2π/m), so the printed lower end is rigorous.
+
+## 23b. Decay rate of the minimal condition number of sign matrices: C ≤ 1/2
+
+κ(n) is the smallest condition number of an n×n ±1 matrix, and C is the largest α such that
+κ(n) = 1 + f(n)/n^α for a subpolynomial f. The table's upper bound is 1.
+
+Let n ≥ 3 be odd and A an n×n ±1 matrix; let G = AᵀA have eigenvalues λ₁ ≥ … ≥ λₙ ≥ 0, so
+κ(A)² = λ₁/λₙ. Each diagonal entry of G is n, and each off-diagonal entry is a sum of n odd terms ±1,
+so it is odd and its square is at least 1. With x_k = λ_k − n: Σ x_k = tr G − n² = 0 and
+Σ x_k² = ‖G − nI‖²_F ≥ n(n − 1). Put a = λ₁ − n and b = n − λₙ. Every x_k lies in [−b, a], so
+(a − x_k)(x_k + b) ≥ 0; summing gives Σ x_k² ≤ n·ab (the Bhatia–Davis inequality), so ab ≥ n − 1. Then
+κ(A)² = (n + a)/(n − b) ≥ 1 + (a + b)/n ≥ 1 + 2√(ab)/n ≥ 1 + 2√(n − 1)/n, and so
+κ(n) ≥ 1 + (2 − √2)/√n for every odd n ≥ 3. If κ(n) = 1 + f(n)/n^α with α > 1/2, then for odd n,
+f(n) ≥ (2 − √2) n^(α − 1/2), which is not subpolynomial. Hence C ≤ 1/2.
+
+Numerically: the exact minimum for n = 3 is 2.0 (bound 1.394), and random search for n = 5, 7, 9, 11
+never goes below the bound.

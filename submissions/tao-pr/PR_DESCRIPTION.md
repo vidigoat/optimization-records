@@ -1,4 +1,4 @@
-# Improved lower bounds for 16a, 20a, 20c and 70a
+# Improved bounds for 16a, 20a, 20c, 70a (lower) and 23b (upper)
 
 Four lower bounds, each from one explicit object, with a script that recomputes it:
 https://github.com/vidigoat/optimization-records (see `tao/PROOFS.md`).
@@ -9,6 +9,7 @@ https://github.com/vidigoat/optimization-records (see `tao/PROOFS.md`).
 | 20a | lower | 2 | 8 | n = 1, X = E − 1 with E standard exponential: Var(X²) = 9 − 1 |
 | 20c | lower | √(π/2) | √3 | n = 1, uniform on [−√3, √3], A = (−∞, 0] |
 | 70a | lower | 1 | 1.201927 (rigorous) | cube and ball in n = 300,000; Szász's inequality shows the cube is already in its worst position, then Steiner's formula |
+| 23b | upper | 1 | 1/2 | odd n: off-diagonal Gram entries are odd; Bhatia–Davis gives κ(n) ≥ 1 + (2 − √2)/√n |
 
 **16a** turns the 2013 source's numerical value (≈ 2.15627) into a certified bound: the sums S₀, S₁,
 S₂ over the lattice and the logarithms are evaluated with `mpmath.iv` at 40 digits, and the reported
