@@ -35,12 +35,13 @@ packing of that kind for every such entry, then re-optimised each one with a com
 machines. The optimised packings beat the published records by a median of about 0.1%, around 2–3
 times the gain from deletion alone.
 
-| Category | Entries improved |
-|---|---|
-| Circles in a circle (`cci`) | see [packomania/SUMMARY.tsv](packomania/SUMMARY.tsv) |
-| Circles in a square (`csq`) | |
-| Spheres in a cube (`scu`) | |
-| Spheres in a sphere (`ssp`) | |
+| Category | Entries improved | Median gain | Largest gain |
+|---|---|---|---|
+| Circles in a circle (`cci`) | 193 | 0.061% | 0.25% |
+| Circles in a square (`csq`) | 1813 | 1.703% | 6.71% |
+| Spheres in a cube (`scu`) | 49 | 0.020% | 1.10% |
+| Spheres in a sphere (`ssp`) | 17 | 2.482% | 3.31% |
+| **Total** | **2072** | | |
 
 Every packing is checked in exact rational arithmetic: every object inside the container, no two
 overlapping (touching allowed), and a radius strictly larger than the published one. To check them
