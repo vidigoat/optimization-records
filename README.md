@@ -8,7 +8,7 @@
 |---|---|---|
 | 📐 | [Terence Tao's optimization constants](https://github.com/teorth/optimizationproblems) | **5 constants improved**, including a first rigorous bound for 16a and a new cube-and-ball proof for 70a ([pull request #226](https://github.com/teorth/optimizationproblems/pull/226)) |
 | 🔵 | [Packomania](http://www.packomania.com) (best packings of circles and spheres) | **2,072 packings** beat the published records, by up to 6.7% |
-| 📡 | [codetables.de](http://www.codetables.de) (best error-correcting codes) | **4 record codes**, beating entries unchanged since 2001–2008 |
+| 📡 | [codetables.de](http://www.codetables.de) (best error-correcting codes) | **7 record codes**, beating entries unchanged since 2001–2008 |
 
 Everything here can be re-checked on a laptop:
 
@@ -63,7 +63,7 @@ Every packing is checked in exact rational arithmetic. Details and the full list
 
 ## 📡 codetables.de
 
-Four linear codes over GF(5), found by Construction X on nested constacyclic codes:
+Seven linear codes over GF(5), found by Construction X on nested constacyclic codes:
 
 | Code | Listed | New | Upper bound | Entry last changed |
 |---|---|---|---|---|
@@ -71,8 +71,11 @@ Four linear codes over GF(5), found by Construction X on nested constacyclic cod
 | [64, 10] | 38 | **39** | 44 | 2003 |
 | [81, 10] | 50 | **51** | 57 | 2008 |
 | [82, 10] | 51 | **52** | 58 | 2003 |
+| [67, 12] | 37 | **38** | 45 | 2003 |
+| [68, 12] | 38 | **39** | 45 | 2003 |
+| [69, 12] | 38 | **39** | 46 | 2003 |
 
-Each minimum distance is computed exactly by enumerating all 5^10 codewords. Details:
+Each minimum distance is computed exactly by enumerating every codeword. Details:
 [`codetables/`](codetables).
 
 ---

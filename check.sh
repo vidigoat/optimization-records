@@ -1,6 +1,6 @@
 #!/bin/sh
 # Re-check every result in this repository. Needs Python 3.10+, a C compiler, and mpmath.
-#   ./check.sh          quick: all Tao certificates at full strength except 16a (smaller cutoff), and the codes
+#   ./check.sh          quick: all Tao certificates at full strength except 16a (smaller cutoff), and the codes (about a minute)
 #   ./check.sh --full   also 16a at full strength and every Packomania packing (downloads the release zip)
 set -e
 cd "$(dirname "$0")"
