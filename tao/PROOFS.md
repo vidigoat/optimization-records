@@ -21,8 +21,8 @@ So δ = S₂/S₁ ≈ 3.93181 ≥ 1, and
 `bgw.py` computes the three sums over n = |k|², weighted by the number of lattice points with
 |k|² = n, in interval arithmetic (mpmath.iv, 40 digits), so the printed lower end is rigorous. The
 interval has width about 10⁻³⁴. The torus normalisation agrees with the source: as the cutoff grows,
-the value approaches the 2013 paper's numerical value 2.15627 (cutoff 50: 2.15174; 200: 2.15592;
-800: 2.15621; 4000: 2.156225).
+the value approaches the 2013 paper's numerical value 2.15627 (best μ for each cutoff: cutoff 50 with
+μ = 7: 2.15174; 200: 2.15592; 800: 2.15621; 4000 with μ = 41/5: 2.156225).
 
 ## 20a. Thin-shell constant (variance form): C ≥ 8
 
