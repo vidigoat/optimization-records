@@ -1,0 +1,15 @@
+{
+ "model": "flux_halfdiameter",
+ "c": "223/500",
+ "B_tail": [
+  1350,
+  "1949029/1953125",
+  "9749241/9765625"
+ ],
+ "status": "PASS",
+ "A_finite_through": 5806,
+ "B_finite_through": 1349,
+ "minA": 6.990097909588498e-06,
+ "minB": 6.982425384124095e-06,
+ "seconds": 3.0
+}

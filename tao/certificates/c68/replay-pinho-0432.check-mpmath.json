@@ -1,0 +1,15 @@
+{
+ "model": "two_covering_zeros_hyperbolic_jung",
+ "c": "54/125",
+ "B_tail": [
+  24000,
+  "4999/5000",
+  "9999/10000"
+ ],
+ "status": "PASS",
+ "A_finite_through": 31278,
+ "B_finite_through": 23999,
+ "minA": 2.0961051646597567e-06,
+ "minB": 2.2847830875166066e-07,
+ "seconds": 3.2
+}
