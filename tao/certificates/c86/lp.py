@@ -41,6 +41,7 @@ def main():
     ap.add_argument("--maxdeg", type=int, default=99)
     ap.add_argument("--e4", type=float, default=1e-10)
     ap.add_argument("--prune", type=int, default=0)
+    ap.add_argument("--rounds", type=int, default=30)
     a = ap.parse_args()
     A, B = Fraction(a.a), Fraction(a.b)
     edges = []
@@ -108,7 +109,7 @@ def main():
     fine = np.concatenate([np.linspace(E[i], E[i + 1], 200, endpoint=False) for i in range(N)] + [[E[-1]]])
     fine = np.unique(np.concatenate([fine, xs]))
     Fine = None
-    for rnd in range(30):
+    for rnd in range(a.rounds):
         A_ub = np.vstack([rows(xs),
                           np.hstack([np.zeros(N), degs])[None, :],
                           np.hstack([-ILQ, np.zeros((P, P))])])
