@@ -18,3 +18,14 @@ digit, and agrees with brute-force enumeration on small graphons.
 
     python3 exact89.py c89_stepgraphon_D30.json.gz part=0/4 64   # one quarter of the primes, 64 processes
     python3 exact89.py c89_stepgraphon_D30.json.gz residues=cand_part0.txt,cand_part1.txt,cand_part2.txt,cand_part3.txt
+
+## Update: C89 ≤ 0.0301388584653 (second refinement round)
+
+`c89_stepgraphon_D30_round2.json.gz`: the first-round graphon refined by a further L-BFGS round (same parametrisation),
+rounded to multiples of 2⁻³⁰. Exact density, computed the same way (12 primes plus a check prime; residues in
+`round2_part*.txt`):
+
+    31383468324407329838135970970371081393990727093313271428891812741 /
+    1041295852679825698551191435837073366434387539971249757275291648000 = 0.03013885846528...
+
+    python3 exact89.py c89_stepgraphon_D30_round2.json.gz residues=round2_part0.txt,round2_part1.txt,round2_part2.txt,round2_part3.txt
