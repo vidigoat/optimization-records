@@ -29,4 +29,4 @@ best vector coprime to all denominators (a smaller weighted |S|² implies a smal
 screen by exact reduced cost, and add it as an LP column (warm-started HiGHS). Each accepted factor gained
 10⁻⁸–10⁻⁶; the search saturated after 17 factors.
 
-    python3 vcheck.py certificate.json out.json 1e-10
+    python3 vcheck.py certificate.json --tol 1e-10 --out result.json   # needs python-flint
