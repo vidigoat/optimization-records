@@ -1,0 +1,66 @@
+primes (processing order): 97,257,241,17,127,43,29,113,31,11,41,61,13,5,7,3,73,19,37,109
+orders                   : 48,16,24,8,7,14,28,28,5,10,20,60,12,4,3,2,9,18,36,36
+T0 = 5040, cut moduli g_k: 1,48,24,24,12,84,84,84,12,60,60,60,12,12,12,12,12,36,36,36,1, weight limbs 2
+step  0 q=97     d=48   g=1    -> g'=48   states 1 -> 2  (1 MB) t=0.0s peakrss=0.00GB  sym Z16[1|2|4|8|16]:sortxZ3[1|3]:tree
+step  1 q=257    d=16   g=48   -> g'=24   states 2 -> 7  (1 MB) t=0.0s peakrss=0.00GB  sym Z8[1|2|4|8]:sortxZ3[1|3]:tree
+step  2 q=241    d=24   g=24   -> g'=24   states 7 -> 52  (3 MB) t=0.0s peakrss=0.01GB  sym Z8[1|2|4|8]:sortxZ3[1|3]:tree
+step  3 q=17     d=8    g=24   -> g'=12   states 52 -> 170  (7 MB) t=0.0s peakrss=0.01GB  sym affine(48)
+step  4 q=127    d=7    g=12   -> g'=84   states 170 -> 340  (35 MB) t=0.0s peakrss=0.01GB  sym Z4[1|2|4]:treexZ3[1|3]:treexZ7[1|7]:sort
+step  5 q=43     d=14   g=84   -> g'=84   states 340 -> 1018  (97 MB) t=0.0s peakrss=0.02GB  sym Z4[1|2|4]:treexZ3[1|3]:treexZ7[1|7]:sort
+step  6 q=29     d=28   g=84   -> g'=84   states 1018 -> 5954  (335 MB) t=0.0s peakrss=0.06GB  sym Z4[1|2|4]:treexZ3[1|3]:treexZ7[1|7]:sort
+step  7 q=113    d=28   g=84   -> g'=12   states 5954 -> 12359  (160 MB) t=0.0s peakrss=0.11GB  sym affine(48)
+step  8 q=31     d=5    g=12   -> g'=60   states 12359 -> 24718  (335 MB) t=0.0s peakrss=0.16GB  sym Z4[1|2|4]:treexZ3[1|3]:treexZ5[1|5]:sort
+step  9 q=11     d=10   g=60   -> g'=60   states 24718 -> 74140  (337 MB) t=0.1s peakrss=0.21GB  sym Z4[1|2|4]:treexZ3[1|3]:treexZ5[1|5]:sort
+step 10 q=41     d=20   g=60   -> g'=60   states 74140 -> 452844  (344 MB) t=0.4s peakrss=0.26GB  sym Z4[1|2|4]:treexZ3[1|3]:treexZ5[1|5]:sort
+step 11 q=61     d=60   g=60   -> g'=12   states 452844 -> 2767359  (203 MB) t=1.0s peakrss=0.40GB  sym affine(48)
+step 12 q=13     d=12   g=12   -> g'=12   states 2767359 -> 24154492  (1539 MB) t=2.8s peakrss=2.05GB  sym affine(48)
+step 13 q=5      d=4    g=12   -> g'=12   states 24154492 -> 30642856  (1879 MB) t=8.9s peakrss=2.48GB  sym affine(48)
+step 14 q=7      d=3    g=12   -> g'=12   states 30642856 -> 43310503  (2382 MB) t=16.6s peakrss=3.09GB  sym affine(48)
+step 15 q=3      d=2    g=12   -> g'=12   states 43310503 -> 39069905  (2215 MB) t=23.0s peakrss=3.27GB  sym chain[1|3|6|12]
+step 16 q=73     d=9    g=12   -> g'=36   states 39069905 -> 97499214  (7771 MB) t=47.8s peakrss=9.03GB  sym chain[1|18|36]
+  tail progress   0%  t=47.8s
+  tail progress   5%  t=68.2s
+  tail progress  10%  t=88.2s
+  tail progress  15%  t=108.3s
+  tail progress  20%  t=127.9s
+  tail progress  25%  t=147.6s
+  tail progress  30%  t=167.0s
+  tail progress  35%  t=186.5s
+  tail progress  40%  t=206.4s
+  tail progress  45%  t=226.0s
+  tail progress  50%  t=245.6s
+  tail progress  55%  t=265.5s
+  tail progress  60%  t=284.9s
+  tail progress  65%  t=304.2s
+  tail progress  70%  t=323.5s
+  tail progress  75%  t=342.9s
+  tail progress  80%  t=362.1s
+  tail progress  85%  t=381.5s
+  tail progress  90%  t=400.8s
+  tail progress  95%  t=420.0s
+  tail progress 100%  t=439.5s
+tail over 3 primes from 97499214 states done t=439.6s peakrss=9.03GB
+check sum delta        = M0          : OK (M0 = 11902134251994203956110599642415)
+check sum delta*nu     = T0*phi(M0)  : OK
+check sum delta*nu^2   (direct form) : OK
+check sum delta*nu^3   (direct form) : OK
+histogram entries: 4556, max stored layer 97499214 states, DP time 439.60s, total 439.76s, peak RSS 9.030 GB
+      440.73 real      5117.11 user        39.95 sys
+          9029664768  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1069972  page reclaims
+                   1  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   2  voluntary context switches
+             8850759  involuntary context switches
+      49328872152373  instructions retired
+      17305732740740  cycles elapsed
+          9073089424  peak memory footprint
+exit 0

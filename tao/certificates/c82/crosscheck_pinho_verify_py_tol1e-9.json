@@ -1,0 +1,17 @@
+{
+  "verified": true,
+  "target": "0.25343505",
+  "certificate_sha256": "557da3e3cfdaee57eee84247a4daf9c470f88b0513c300dcb127dadfee775fe0",
+  "degree_Q": "1000000000004",
+  "degree_A": "493728627377756531/524288",
+  "logM_ball": "[253411757811.88947040453589287717277957666618246 +/- 4.42e-36]",
+  "integral_upper_ball": "[23282335.7913831772575523928411626811752755 +/- 4.43e-35]",
+  "bound_upper_ball": "[0.2534350401466671134212067768163291151505761415 +/- 4.86e-47]",
+  "leaves_half_circle": 40893,
+  "zero_panels": 55,
+  "bisections": 40892,
+  "max_depth": 34,
+  "precision": 160,
+  "tolerance": "1e-9",
+  "seconds": 1285.718210220337
+}

@@ -1,0 +1,44 @@
+T0=5040 M0=11902134251994203956110599642415 n=20 final=3 valbytes=1
+step 1 q=97 d=48 L=5040->5040 states=2  t=2.0s
+step 2 q=257 d=16 L=5040->2520 states=7  t=2.2s
+step 3 q=241 d=24 L=2520->2520 states=58  t=2.5s
+step 4 q=17 d=8 L=2520->1260 states=170  t=2.5s
+step 5 q=29 d=28 L=1260->1260 states=787  t=2.8s
+step 6 q=113 d=28 L=1260->1260 states=3196  t=3.8s
+step 7 q=43 d=14 L=1260->1260 states=21599  t=5.9s
+step 8 q=127 d=7 L=1260->180 states=12359  t=6.1s
+step 9 q=37 d=36 L=180->180 states=122323  t=6.6s
+step 10 q=109 d=36 L=180->180 states=1055697  t=11.6s
+step 11 q=19 d=18 L=180->180 states=11813399  t=34.3s
+step 12 q=73 d=9 L=180->60 states=15056519  t=51.4s
+step 13 q=3 d=2 L=60->60 states=15139560  t=57.3s
+step 14 q=7 d=3 L=60->60 states=19117336  t=65.4s
+step 15 q=5 d=4 L=60->60 states=24902493  t=78.3s
+step 16 q=31 d=5 L=60->60 states=49804985  t=98.9s
+step 17 q=11 d=10 L=60->60 states=149117551  t=175.3s
+final stage: Lf=60 states=149117551 patterns=273 last=61(d=60)
+done t=295.3s
+	Command being timed: "./basedp3 --threads 64 --shards 4096 --final 3 97 257 241 17 29 113 43 127 37 109 19 73 3 7 5 31 11 13 41 61"
+	User time (seconds): 18539.51
+	System time (seconds): 18.08
+	Percent of CPU this job got: 6252%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:56.79
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 20611812
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 7329126
+	Voluntary context switches: 65655
+	Involuntary context switches: 24589
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 336
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+EXIT 0

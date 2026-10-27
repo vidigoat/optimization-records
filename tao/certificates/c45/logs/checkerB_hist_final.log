@@ -1,0 +1,72 @@
+primes (processing order): 97,257,241,17,127,43,29,113,31,11,151,41,61,13,5,7,3,73,19,37,109
+orders                   : 48,16,24,8,7,14,28,28,5,10,15,20,60,12,4,3,2,9,18,36,36
+T0 = 5040, cut moduli g_k: 1,48,24,24,12,84,84,84,12,60,60,60,60,12,12,12,12,12,36,36,36,1, weight limbs 2
+step  0 q=97     d=48   g=1    -> g'=48   states 1 -> 2  (1 MB) t=0.0s peakrss=0.01GB  sym Z16[1|2|4|8|16]:sortxZ3[1|3]:tree
+step  1 q=257    d=16   g=48   -> g'=24   states 2 -> 7  (1 MB) t=0.0s peakrss=0.01GB  sym Z8[1|2|4|8]:sortxZ3[1|3]:tree
+step  2 q=241    d=24   g=24   -> g'=24   states 7 -> 52  (3 MB) t=0.0s peakrss=0.01GB  sym Z8[1|2|4|8]:sortxZ3[1|3]:tree
+step  3 q=17     d=8    g=24   -> g'=12   states 52 -> 170  (7 MB) t=0.0s peakrss=0.01GB  sym affine(48)
+step  4 q=127    d=7    g=12   -> g'=84   states 170 -> 340  (35 MB) t=0.0s peakrss=0.01GB  sym Z4[1|2|4]:treexZ3[1|3]:treexZ7[1|7]:sort
+step  5 q=43     d=14   g=84   -> g'=84   states 340 -> 1018  (97 MB) t=0.0s peakrss=0.01GB  sym Z4[1|2|4]:treexZ3[1|3]:treexZ7[1|7]:sort
+step  6 q=29     d=28   g=84   -> g'=84   states 1018 -> 5954  (335 MB) t=0.0s peakrss=0.01GB  sym Z4[1|2|4]:treexZ3[1|3]:treexZ7[1|7]:sort
+step  7 q=113    d=28   g=84   -> g'=12   states 5954 -> 12359  (160 MB) t=0.0s peakrss=0.02GB  sym affine(48)
+step  8 q=31     d=5    g=12   -> g'=60   states 12359 -> 24718  (335 MB) t=0.1s peakrss=0.04GB  sym Z4[1|2|4]:treexZ3[1|3]:treexZ5[1|5]:sort
+step  9 q=11     d=10   g=60   -> g'=60   states 24718 -> 74140  (337 MB) t=0.1s peakrss=0.06GB  sym Z4[1|2|4]:treexZ3[1|3]:treexZ5[1|5]:sort
+step 10 q=151    d=15   g=60   -> g'=60   states 74140 -> 366552  (342 MB) t=0.1s peakrss=0.10GB  sym Z4[1|2|4]:treexZ3[1|3]:treexZ5[1|5]:sort
+step 11 q=41     d=20   g=60   -> g'=60   states 366552 -> 2985773  (392 MB) t=0.6s peakrss=0.39GB  sym Z4[1|2|4]:treexZ3[1|3]:treexZ5[1|5]:sort
+step 12 q=61     d=60   g=60   -> g'=12   states 2985773 -> 23599321  (1450 MB) t=1.2s peakrss=1.56GB  sym affine(48)
+step 13 q=13     d=12   g=12   -> g'=12   states 23599321 -> 203400829  (12515 MB) t=12.9s peakrss=12.83GB  sym affine(48)
+step 14 q=5      d=4    g=12   -> g'=12   states 203400829 -> 247308037  (14267 MB) t=239.5s peakrss=14.77GB  sym affine(48)
+step 15 q=7      d=3    g=12   -> g'=12   states 247308037 -> 294418368  (16169 MB) t=505.7s peakrss=16.74GB  sym affine(48)
+step 16 q=3      d=2    g=12   -> g'=12   states 294418368 -> 253564607  (14525 MB) t=521.3s peakrss=17.41GB  sym chain[1|3|6|12]
+step 17 q=73     d=9    g=12   -> g'=36   states 253564607 -> 699520880  (47879 MB) t=564.3s peakrss=49.93GB  sym chain[1|18|36]
+  tail progress   0%  t=564.3s
+  tail progress   5%  t=596.3s
+  tail progress  10%  t=628.2s
+  tail progress  15%  t=660.3s
+  tail progress  20%  t=692.3s
+  tail progress  25%  t=724.4s
+  tail progress  30%  t=756.4s
+  tail progress  35%  t=788.6s
+  tail progress  40%  t=820.8s
+  tail progress  45%  t=852.9s
+  tail progress  50%  t=885.2s
+  tail progress  55%  t=917.3s
+  tail progress  60%  t=949.6s
+  tail progress  65%  t=981.7s
+  tail progress  70%  t=1013.8s
+  tail progress  75%  t=1046.0s
+  tail progress  80%  t=1078.3s
+  tail progress  85%  t=1110.6s
+  tail progress  90%  t=1142.9s
+  tail progress  95%  t=1175.3s
+  tail progress 100%  t=1207.6s
+tail over 3 primes from 699520880 states done t=1207.7s peakrss=49.94GB
+check sum delta        = M0          : OK (M0 = 1797222272051124797372700546004665)
+check sum delta*nu     = T0*phi(M0)  : OK
+check sum delta*nu^2   (direct form) : OK
+check sum delta*nu^3   (direct form) : OK
+histogram entries: 4559, max stored layer 699520880 states, DP time 1212.89s, total 1212.99s, peak RSS 49.945 GB
+	Command being timed: "./histB --threads=64 3 5 7 11 13 17 19 29 31 37 41 61 73 257 43 127 241 113 109 97 151"
+	User time (seconds): 77196.17
+	System time (seconds): 36.53
+	Percent of CPU this job got: 6367%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 20:13.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 48774040
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14254470
+	Voluntary context switches: 26069
+	Involuntary context switches: 154440
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 504
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+EXIT 0

@@ -1,0 +1,24 @@
+{
+ "certificate": "cert_st3.json",
+ "sha256": "133005744e567d11f847c78df008234c9834f6322276c305dc738b522c9c038d",
+ "D": 1000000000004,
+ "degA_over_D": 0.9417126224055893,
+ "numerators_active": 35,
+ "mahler_normalized": "[0.2534117578108758233732924 +/- 1.05e-26]",
+ "integral_upper": "2.328231730526930419646891e-5",
+ "B_ball": "[0.2534350401281810926774889 +/- 4.16e-26]",
+ "B_upper": "0.2534350401281810926774889",
+ "tol": "1e-11",
+ "prec": 192,
+ "panels": {
+  "zero": 1786,
+  "positive": 409228,
+  "crossing": 80,
+  "bisections": 410582,
+  "max_depth": 40
+ },
+ "slowest_top_panel_s": 1114.8,
+ "seconds": 1211.1,
+ "target": "0.2534350403",
+ "below_target": true
+}

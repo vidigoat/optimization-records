@@ -1,0 +1,16 @@
+== B griego
+base histogram   : 2104 entries, sum = M0 OK, first moment OK, second moment OK
+S = 0.4902494078111542556868594292410419912779...  (truncated to 40 decimals)
+S rounded UP to 15 decimals: 0.490249407811155
+== B yoo
+base histogram   : 4217 entries, sum = M0 OK, first moment OK, second moment OK
+S = 0.4901800632900604571004505740261343540790...  (truncated to 40 decimals)
+S rounded UP to 15 decimals: 0.490180063290061
+== B base20
+base histogram   : 4556 entries, sum = M0 OK, first moment OK, second moment OK
+S = 0.4896401821963830395194824005697447344494...  (truncated to 40 decimals)
+S rounded UP to 15 decimals: 0.489640182196384
+== B final
+base histogram   : 4559 entries, sum = M0 OK, first moment OK, second moment OK
+S = 0.4895961150740701068729315271738617765037...  (truncated to 40 decimals)
+S rounded UP to 15 decimals: 0.489596115074071
