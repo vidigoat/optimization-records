@@ -1,0 +1,4 @@
+[1, 2^18]: 353 intervals, 353 values of mu; max endpoint bound [2.1562255281542197 +/- 4.95e-17]
+delta >= 2^18: bound [2.09340515153 +/- 4.25e-12]  (B = [0.82499540651 +/- 5.44e-12])
+CERTIFIED: C16 <= 2.15622552815422
+brute-force lattice-sum cross-check on 21 mu values: max relative deviation 9.0e-08
