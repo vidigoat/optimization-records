@@ -9,7 +9,8 @@ Previous best 1.8084990 (Koshta, all 883 polynomials of degree ≤ 7). The gain 
 every irreducible monic integer polynomial with all roots in [0, 5.3] and trace ≤ 2·degree (it reproduces the
 883 of degree ≤ 7 exactly: 3, 3, 7, 17, 51, 167, 635, and finds 2954 of degree 8). `lp.py` solves the discretised
 Talebizadeh Sardari–Orloski primal LP over them with cutting planes (f is checked on a 200-points-per-cell grid
-and violated points are added until none remain), then rounds to exact rationals.
+and points where f < margin/2 are added until none remain; the LP itself imposes f ≥ margin at its sample points),
+then rounds to exact rationals. Positivity on every cell is certified by the verifier, not by the grid.
 
 Checked with Koshta's independent rigorous verifier `checkers/c86_trace.py`
 (github.com/DennisKoshta/c86-sss-trace-certificate): `VALID 1.808109995748`, `BEATS 1.8084990`.
@@ -17,7 +18,8 @@ Checked with Koshta's independent rigorous verifier `checkers/c86_trace.py`
 ## Update: C86 ≤ 1.807768536863 (finer cells)
 
 `c86_deg8_h400_1.807768536863.json`: the same LP with cells of width 1/400 (2054 cells), the same degree ≤ 8 library
-(pruned to the 300 best by reduced cost on a coarse solve), cutting planes until f ≥ 10⁻⁶ on the fine grid. 19 polynomials
+(pruned to the 300 best by reduced cost on a coarse solve), f ≥ 10⁻⁶ at the LP sample points and cutting planes until f ≥ 5·10⁻⁷ on the fine grid (an independent replay finds
+f ≥ 4.86·10⁻⁷ on every cell). 19 polynomials
 receive positive weight. Bound T/m = 578485931795944337659/319999999999999303200 = 1.80776853686...; Koshta's verifier
 reports `VALID 1.807768536863`.
 
