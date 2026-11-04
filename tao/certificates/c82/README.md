@@ -1,5 +1,7 @@
 # C82 ≤ 0.2534350402 (essential minimum of the Zhang–Zagier height, upper bound)
 
+> **Superseded (4 Nov 2026):** [`v2/`](v2/) certifies C82 ≤ 0.25241770445 with four new degree-104 denominators. This folder keeps the 27 Oct certificate.
+
 `certificate.json` is in R. Pinho's format (github.com/rpinho/c82-height-certificate): Doche's limit-point
 construction with 7 denominator factors (Doche, Grinsztajn, Épi; multiplicities re-optimised, D = 1,000,000,000,004)
 and 35 numerator factors with rational exponents (deg A / D = 0.9417). 18 of Pinho's numerators keep positive weight;

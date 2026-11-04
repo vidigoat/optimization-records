@@ -1,0 +1,51 @@
+{
+  "derivative_identities": true,
+  "closed_form_log10": {
+    "certificate_sha256": "74ee11c5a797d18800edbd7a8604a52be2ec10a6999e8e422fd7c80080650303",
+    "target": "2.303",
+    "passed": true,
+    "D": 1,
+    "degree_A": "0",
+    "mahler": "[2.30258509299404568401799145468436420760110148862877297603 +/- 3.42e-57]",
+    "integral_upper": "0",
+    "bound_upper": "[2.30258509299404568401799145468436420760110148862877297603 +/- 3.64e-57]",
+    "counts": [
+      1,
+      0,
+      0
+    ],
+    "splits": 0,
+    "max_depth": 1,
+    "precision": 192,
+    "tolerance": "1e-9",
+    "seconds": 0.0035948753356933594
+  },
+  "positive_integrand_log100": {
+    "certificate_sha256": "cfc586b3cb15b730d24cee6c7219b174cf670ec81226d42c67cced3acca18c46",
+    "target": "4.606",
+    "passed": true,
+    "D": 1,
+    "degree_A": "1/2",
+    "mahler": "[2.30258509299404568401799145468436420760110148862877297603 +/- 3.42e-57]",
+    "integral_upper": "[2.30258509345677801449058373815915925386306866690934270129 +/- 3.21e-57]",
+    "bound_upper": "[4.60517018645082369850857519284352346146417015553811567732 +/- 1.08e-57]",
+    "counts": [
+      0,
+      128,
+      0
+    ],
+    "splits": 127,
+    "max_depth": 8,
+    "precision": 192,
+    "tolerance": "1e-9",
+    "seconds": 0.008479833602905273
+  },
+  "below_log10_rejected": true,
+  "structural_corruptions_rejected": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ]
+}

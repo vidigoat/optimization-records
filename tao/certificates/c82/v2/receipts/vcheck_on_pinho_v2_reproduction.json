@@ -1,0 +1,24 @@
+{
+ "certificate": "pinho/v2copy/certificate.json",
+ "sha256": "adfca0754f4d8b3a64398df22a506932743de7b0e49df542961530cb26c67ac2",
+ "D": 1000000000064,
+ "degA_over_D": 0.9063099437372957,
+ "numerators_active": 47,
+ "mahler_normalized": "[0.2530850097587899098262213 +/- 3.84e-26]",
+ "integral_upper": "6.823792766585726652260158e-6",
+ "B_ball": "[0.2530918335515564955528736 +/- 1.51e-27]",
+ "B_upper": "0.2530918335515564955528736",
+ "tol": "1e-11",
+ "prec": 192,
+ "panels": {
+  "zero": 2409,
+  "positive": 346026,
+  "crossing": 114,
+  "bisections": 348293,
+  "max_depth": 42
+ },
+ "slowest_top_panel_s": 648.1,
+ "seconds": 1066.0,
+ "target": "0.253091834",
+ "below_target": true
+}

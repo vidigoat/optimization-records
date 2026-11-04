@@ -1,0 +1,720 @@
+{
+  "sha256": "1125ddf42e9a544c6fc566aa2ebdfb59ec7c35177030c5d50767427e52f841d1",
+  "passed": true,
+  "D": 999999999960,
+  "degreeA": "473650268755560921/524288",
+  "slack": "50637731223467559/524288",
+  "degreeA_over_D": "157883422918520307/174762666659676160",
+  "common_exponent_denominator": 1048576,
+  "degreeW": 2097151999916113920,
+  "degreeU": 1894601075022243684,
+  "coprimality_pairs": 96,
+  "records": [
+    {
+      "role": "denominator",
+      "index": 0,
+      "name": "D101_11_0",
+      "degree": 104,
+      "lead": 1,
+      "multiplicity": 2132912095
+    },
+    {
+      "role": "denominator",
+      "index": 1,
+      "name": "D111_0_0",
+      "degree": 104,
+      "lead": 1,
+      "multiplicity": 208845989
+    },
+    {
+      "role": "denominator",
+      "index": 2,
+      "name": "D111_3_0",
+      "degree": 104,
+      "lead": 1,
+      "multiplicity": 6281105155
+    },
+    {
+      "role": "denominator",
+      "index": 3,
+      "name": "D111_3_1",
+      "degree": 104,
+      "lead": 1,
+      "multiplicity": 992521376
+    },
+    {
+      "role": "numerator",
+      "index": 0,
+      "name": "P1",
+      "degree": 1,
+      "lead": 1,
+      "exponent": "5945330344964853/32768"
+    },
+    {
+      "role": "numerator",
+      "index": 1,
+      "name": "P2",
+      "degree": 1,
+      "lead": 1,
+      "exponent": "683163270945085/4096"
+    },
+    {
+      "role": "numerator",
+      "index": 2,
+      "name": "P3",
+      "degree": 3,
+      "lead": 1,
+      "exponent": "4543885523106639/524288"
+    },
+    {
+      "role": "numerator",
+      "index": 3,
+      "name": "P4",
+      "degree": 4,
+      "lead": 1,
+      "exponent": "5661721437303915/262144"
+    },
+    {
+      "role": "numerator",
+      "index": 4,
+      "name": "P6",
+      "degree": 8,
+      "lead": 1,
+      "exponent": "6326646780099415/262144"
+    },
+    {
+      "role": "numerator",
+      "index": 5,
+      "name": "MS192",
+      "degree": 24,
+      "lead": 1,
+      "exponent": "7251336959033/131072"
+    },
+    {
+      "role": "numerator",
+      "index": 6,
+      "name": "MS360",
+      "degree": 20,
+      "lead": 1,
+      "exponent": "350523365530559/524288"
+    },
+    {
+      "role": "numerator",
+      "index": 7,
+      "name": "cg2_4_0_c2",
+      "degree": 30,
+      "lead": 1,
+      "exponent": "337838606174523/131072"
+    },
+    {
+      "role": "numerator",
+      "index": 8,
+      "name": "n21_7_2",
+      "degree": 16,
+      "lead": 1,
+      "exponent": "351518320892769/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 9,
+      "name": "n22_6_3",
+      "degree": 16,
+      "lead": 1,
+      "exponent": "281655607896691/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 10,
+      "name": "n22_7_5",
+      "degree": 19,
+      "lead": 1,
+      "exponent": "289175663921961/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 11,
+      "name": "n101_7_34",
+      "degree": 20,
+      "lead": 1,
+      "exponent": "165462099415705/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 12,
+      "name": "n121_1_0",
+      "degree": 22,
+      "lead": 6,
+      "exponent": "210999431003005/262144"
+    },
+    {
+      "role": "numerator",
+      "index": 13,
+      "name": "n121_2_0",
+      "degree": 26,
+      "lead": 2,
+      "exponent": "1357562472884255/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 14,
+      "name": "n121_2_1",
+      "degree": 21,
+      "lead": 1,
+      "exponent": "2106400921450377/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 15,
+      "name": "n121_2_6",
+      "degree": 36,
+      "lead": 2,
+      "exponent": "308568954026433/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 16,
+      "name": "n121_3_0",
+      "degree": 42,
+      "lead": 1,
+      "exponent": "46854757632071/524288"
+    },
+    {
+      "role": "numerator",
+      "index": 17,
+      "name": "n121_3_25",
+      "degree": 20,
+      "lead": 1,
+      "exponent": "56879476649203/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 18,
+      "name": "n121_3_30",
+      "degree": 20,
+      "lead": 9,
+      "exponent": "23888737129789/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 19,
+      "name": "n121_3_33",
+      "degree": 38,
+      "lead": 1,
+      "exponent": "171930787621621/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 20,
+      "name": "n121_3_44",
+      "degree": 24,
+      "lead": 1,
+      "exponent": "211117928477017/524288"
+    },
+    {
+      "role": "numerator",
+      "index": 21,
+      "name": "n121_3_47",
+      "degree": 38,
+      "lead": 1,
+      "exponent": "247402046351235/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 22,
+      "name": "n121_5_0",
+      "degree": 24,
+      "lead": 1,
+      "exponent": "6435168792531/65536"
+    },
+    {
+      "role": "numerator",
+      "index": 23,
+      "name": "n121_5_1",
+      "degree": 10,
+      "lead": 2,
+      "exponent": "312974383938047/1048576"
+    }
+  ],
+  "modular_witnesses": [
+    {
+      "numerator": "P1",
+      "denominator": "D101_11_0",
+      "prime": 2
+    },
+    {
+      "numerator": "P1",
+      "denominator": "D111_0_0",
+      "prime": 2
+    },
+    {
+      "numerator": "P1",
+      "denominator": "D111_3_0",
+      "prime": 2
+    },
+    {
+      "numerator": "P1",
+      "denominator": "D111_3_1",
+      "prime": 2
+    },
+    {
+      "numerator": "P2",
+      "denominator": "D101_11_0",
+      "prime": 2
+    },
+    {
+      "numerator": "P2",
+      "denominator": "D111_0_0",
+      "prime": 2
+    },
+    {
+      "numerator": "P2",
+      "denominator": "D111_3_0",
+      "prime": 2
+    },
+    {
+      "numerator": "P2",
+      "denominator": "D111_3_1",
+      "prime": 2
+    },
+    {
+      "numerator": "P3",
+      "denominator": "D101_11_0",
+      "prime": 2
+    },
+    {
+      "numerator": "P3",
+      "denominator": "D111_0_0",
+      "prime": 2
+    },
+    {
+      "numerator": "P3",
+      "denominator": "D111_3_0",
+      "prime": 2
+    },
+    {
+      "numerator": "P3",
+      "denominator": "D111_3_1",
+      "prime": 2
+    },
+    {
+      "numerator": "P4",
+      "denominator": "D101_11_0",
+      "prime": 2
+    },
+    {
+      "numerator": "P4",
+      "denominator": "D111_0_0",
+      "prime": 2
+    },
+    {
+      "numerator": "P4",
+      "denominator": "D111_3_0",
+      "prime": 2
+    },
+    {
+      "numerator": "P4",
+      "denominator": "D111_3_1",
+      "prime": 2
+    },
+    {
+      "numerator": "P6",
+      "denominator": "D101_11_0",
+      "prime": 2
+    },
+    {
+      "numerator": "P6",
+      "denominator": "D111_0_0",
+      "prime": 2
+    },
+    {
+      "numerator": "P6",
+      "denominator": "D111_3_0",
+      "prime": 2
+    },
+    {
+      "numerator": "P6",
+      "denominator": "D111_3_1",
+      "prime": 2
+    },
+    {
+      "numerator": "MS192",
+      "denominator": "D101_11_0",
+      "prime": 2
+    },
+    {
+      "numerator": "MS192",
+      "denominator": "D111_0_0",
+      "prime": 2
+    },
+    {
+      "numerator": "MS192",
+      "denominator": "D111_3_0",
+      "prime": 2
+    },
+    {
+      "numerator": "MS192",
+      "denominator": "D111_3_1",
+      "prime": 2
+    },
+    {
+      "numerator": "MS360",
+      "denominator": "D101_11_0",
+      "prime": 2
+    },
+    {
+      "numerator": "MS360",
+      "denominator": "D111_0_0",
+      "prime": 2
+    },
+    {
+      "numerator": "MS360",
+      "denominator": "D111_3_0",
+      "prime": 2
+    },
+    {
+      "numerator": "MS360",
+      "denominator": "D111_3_1",
+      "prime": 2
+    },
+    {
+      "numerator": "cg2_4_0_c2",
+      "denominator": "D101_11_0",
+      "prime": 2
+    },
+    {
+      "numerator": "cg2_4_0_c2",
+      "denominator": "D111_0_0",
+      "prime": 2
+    },
+    {
+      "numerator": "cg2_4_0_c2",
+      "denominator": "D111_3_0",
+      "prime": 2
+    },
+    {
+      "numerator": "cg2_4_0_c2",
+      "denominator": "D111_3_1",
+      "prime": 2
+    },
+    {
+      "numerator": "n21_7_2",
+      "denominator": "D101_11_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n21_7_2",
+      "denominator": "D111_0_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n21_7_2",
+      "denominator": "D111_3_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n21_7_2",
+      "denominator": "D111_3_1",
+      "prime": 2
+    },
+    {
+      "numerator": "n22_6_3",
+      "denominator": "D101_11_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n22_6_3",
+      "denominator": "D111_0_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n22_6_3",
+      "denominator": "D111_3_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n22_6_3",
+      "denominator": "D111_3_1",
+      "prime": 2
+    },
+    {
+      "numerator": "n22_7_5",
+      "denominator": "D101_11_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n22_7_5",
+      "denominator": "D111_0_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n22_7_5",
+      "denominator": "D111_3_0",
+      "prime": 3
+    },
+    {
+      "numerator": "n22_7_5",
+      "denominator": "D111_3_1",
+      "prime": 2
+    },
+    {
+      "numerator": "n101_7_34",
+      "denominator": "D101_11_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n101_7_34",
+      "denominator": "D111_0_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n101_7_34",
+      "denominator": "D111_3_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n101_7_34",
+      "denominator": "D111_3_1",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_1_0",
+      "denominator": "D101_11_0",
+      "prime": 7
+    },
+    {
+      "numerator": "n121_1_0",
+      "denominator": "D111_0_0",
+      "prime": 5
+    },
+    {
+      "numerator": "n121_1_0",
+      "denominator": "D111_3_0",
+      "prime": 5
+    },
+    {
+      "numerator": "n121_1_0",
+      "denominator": "D111_3_1",
+      "prime": 5
+    },
+    {
+      "numerator": "n121_2_0",
+      "denominator": "D101_11_0",
+      "prime": 3
+    },
+    {
+      "numerator": "n121_2_0",
+      "denominator": "D111_0_0",
+      "prime": 3
+    },
+    {
+      "numerator": "n121_2_0",
+      "denominator": "D111_3_0",
+      "prime": 5
+    },
+    {
+      "numerator": "n121_2_0",
+      "denominator": "D111_3_1",
+      "prime": 3
+    },
+    {
+      "numerator": "n121_2_1",
+      "denominator": "D101_11_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_2_1",
+      "denominator": "D111_0_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_2_1",
+      "denominator": "D111_3_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_2_1",
+      "denominator": "D111_3_1",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_2_6",
+      "denominator": "D101_11_0",
+      "prime": 3
+    },
+    {
+      "numerator": "n121_2_6",
+      "denominator": "D111_0_0",
+      "prime": 3
+    },
+    {
+      "numerator": "n121_2_6",
+      "denominator": "D111_3_0",
+      "prime": 5
+    },
+    {
+      "numerator": "n121_2_6",
+      "denominator": "D111_3_1",
+      "prime": 3
+    },
+    {
+      "numerator": "n121_3_0",
+      "denominator": "D101_11_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_3_0",
+      "denominator": "D111_0_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_3_0",
+      "denominator": "D111_3_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_3_0",
+      "denominator": "D111_3_1",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_3_25",
+      "denominator": "D101_11_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_3_25",
+      "denominator": "D111_0_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_3_25",
+      "denominator": "D111_3_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_3_25",
+      "denominator": "D111_3_1",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_3_30",
+      "denominator": "D101_11_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_3_30",
+      "denominator": "D111_0_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_3_30",
+      "denominator": "D111_3_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_3_30",
+      "denominator": "D111_3_1",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_3_33",
+      "denominator": "D101_11_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_3_33",
+      "denominator": "D111_0_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_3_33",
+      "denominator": "D111_3_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_3_33",
+      "denominator": "D111_3_1",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_3_44",
+      "denominator": "D101_11_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_3_44",
+      "denominator": "D111_0_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_3_44",
+      "denominator": "D111_3_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_3_44",
+      "denominator": "D111_3_1",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_3_47",
+      "denominator": "D101_11_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_3_47",
+      "denominator": "D111_0_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_3_47",
+      "denominator": "D111_3_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_3_47",
+      "denominator": "D111_3_1",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_5_0",
+      "denominator": "D101_11_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_5_0",
+      "denominator": "D111_0_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_5_0",
+      "denominator": "D111_3_0",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_5_0",
+      "denominator": "D111_3_1",
+      "prime": 2
+    },
+    {
+      "numerator": "n121_5_1",
+      "denominator": "D101_11_0",
+      "prime": 3
+    },
+    {
+      "numerator": "n121_5_1",
+      "denominator": "D111_0_0",
+      "prime": 3
+    },
+    {
+      "numerator": "n121_5_1",
+      "denominator": "D111_3_0",
+      "prime": 3
+    },
+    {
+      "numerator": "n121_5_1",
+      "denominator": "D111_3_1",
+      "prime": 3
+    }
+  ]
+}

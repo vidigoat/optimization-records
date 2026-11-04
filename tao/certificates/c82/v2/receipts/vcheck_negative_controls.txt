@@ -1,0 +1,4 @@
+mutation m0 (exit 1): AssertionError: denominator not monic up to sign
+mutation m1 (exit 1): AssertionError: numerator and denominator not coprime
+mutation m2 (exit 1): AssertionError: degree condition deg A < D fails
+mutation m3 (exit 1): AssertionError: bad multiplicity
