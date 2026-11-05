@@ -1,6 +1,11 @@
 # C82 (Zhang–Zagier essential minimum): upper bound 0.2520591386
 
-    C82  <=  B  <  0.2520591386,     B in [0.2520591385260044869143520 +/- 1.67e-26]   (checkers/vcheck.py, Arb, 192 bits)
+    C82  <=  B  <=  0.25205913852601  <  0.2520591386      (checkers/vcheck.py, Arb, 192 bits, quadrature tolerance 1e-11)
+
+vcheck.py prints a ball whose radius covers Arb's arithmetic only; the integral part is an upper bound computed to
+quadrature tolerance 1e-11, so the ball's centre is an upper bound for B, not a two-sided enclosure. Arhan Canli's
+independent replay (teorth/optimizationproblems#280, quantavane-replays@14eefd7, row `pr280c`) encloses
+B in [0.2520591385259547, 0.2520591385259548], 4.97e-14 below vcheck's value and 7.4e-11 below the printed bound.
 
 That is 3.46e-4 below the candidate 0.252404806* of R. Pinho
 ([teorth/optimizationproblems#330](https://github.com/teorth/optimizationproblems/pull/330)), and 3.59e-4 below our
@@ -23,7 +28,7 @@ with Q = prod R_j^{m_j} (monic R_j), A = prod S_i^{q_i}, deg A < D = deg Q, and 
   * R. Pinho's MS360 (#301);
   * MS204_c1 and cg2_4_0_c2;
   * 13 found by our dual-weighted LLL numerator search.
-* Split: Mahler part 0.2520394006582630, integral part ≤ 1.97379e-5.
+* Split: Mahler part 0.2520394006582630 (two-sided Arb enclosure), integral part ≤ 1.97379e-5 (upper bound).
 
 ## How it was found
 
