@@ -1,0 +1,24 @@
+{
+ "certificate": "cert_snap2.json",
+ "sha256": "00125f6984ad2646a79d8782ee38f5161bd24c17d4899e4af74ff3e529ba1dbe",
+ "D": 999999999960,
+ "degA_over_D": 0.9052838449169565,
+ "numerators_active": 21,
+ "mahler_normalized": "[0.2520394006582629915262980 +/- 1.98e-26]",
+ "integral_upper": "1.973786774149538805403643e-5",
+ "B_ball": "[0.2520591385260044869143520 +/- 1.67e-26]",
+ "B_upper": "0.2520591385260044869143520",
+ "tol": "1e-11",
+ "prec": 192,
+ "panels": {
+  "zero": 1531,
+  "positive": 511290,
+  "crossing": 60,
+  "bisections": 512625,
+  "max_depth": 42
+ },
+ "slowest_top_panel_s": 286.4,
+ "seconds": 465.0,
+ "target": "0.2524",
+ "below_target": true
+}
