@@ -1,0 +1,5 @@
+5734 knots, 31 auxiliaries, mass 0.999999999999714, sum b deg / m 0.898499, bound 1.805531073207
+structure, bound 1.8055310732071, degree condition: OK; min integral [9.09386971165498816611e-8 +/- 3.28e-29]  (3s)
+positivity: 5732 support cells, 73996 intervals, 0 failed; min certified lower bound 5.740e-11  (807s)
+bound 1.8055310732071 < 1.80560940: True
+VALID
