@@ -1,0 +1,4 @@
+structure, bound 1.8054955152509, degree condition: OK; min integral [9.05960954785655902715e-8 +/- 4.82e-29]  (9s)
+positivity: 6997 support cells, 96103 intervals, 0 failed; min certified lower bound 2.100e-11  (700s)
+bound 1.8054955152509 < 1.80560940: True
+VALID
