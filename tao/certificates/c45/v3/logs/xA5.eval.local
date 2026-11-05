@@ -1,0 +1,5 @@
+base primes 34, cluster primes 25, T0 12252240, bins 1495742, above-C count yes
+C_min for the cut: 1528627
+S = 0.489440909905825679514736174270792438529576472144417336768449
+python3 c45eval.py specA5.json xA5.txt 1528627 > xA5.local.eval 2>&1  12.39s user 0.21s system 98% cpu 12.766 total
+1528627
