@@ -1,0 +1,33 @@
+B product after group 0: 17 reps
+B product after group 1: 2437 reps
+B product after group 2: 2558519 reps
+last B law 4621
+sigma reps 17570536
+A product: 83 vectors
+A product: 5394 vectors
+A product: 592905 vectors
+A product: 8778135 vectors
+done
+	Command being timed: "./c45x 1535541 64 B:3,7,5,13 B:37,109,19,73 B:31,11,41,61,151 B:17,257,97,241 A:29,113,43,127 A:8191,53,157,1613 A:23,89,397,683,2113 A:137,953"
+	User time (seconds): 547010.29
+	System time (seconds): 112.77
+	Percent of CPU this job got: 6229%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:26:23
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 50098976
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14634041
+	Voluntary context switches: 87838
+	Involuntary context switches: 712606
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 161440
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
