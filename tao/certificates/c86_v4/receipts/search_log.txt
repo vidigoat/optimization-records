@@ -1,0 +1,31 @@
+   [init] LP 1.8054792699 (279s, 89 it)  7158 tris 39 polys 15109 pts
+   refine: 129423 minima in 235s
+   cut: min f -3.11e-03 (refined -3.11e-03), 435 refined local minima below margin/2
+   [cut] LP 1.8054833597 (297s, 88 it)  7158 tris 39 polys 15544 pts
+   refine: 126731 minima in 235s
+   cut: min f -9.58e-04 (refined -9.58e-04), 135 refined local minima below margin/2
+   [cut] LP 1.8054837019 (289s, 86 it)  7158 tris 39 polys 15679 pts
+   refine: 126304 minima in 234s
+   cut: min f -8.64e-05 (refined -8.67e-05), 50 refined local minima below margin/2
+   [cut] LP 1.8054837329 (277s, 82 it)  7158 tris 39 polys 15729 pts
+   refine: 126432 minima in 232s
+   cut: min f -3.21e-06 (refined -3.50e-06), 14 refined local minima below margin/2
+   [cut] LP 1.8054837360 (290s, 85 it)  7158 tris 39 polys 15743 pts
+   refine: 126325 minima in 236s
+   cut: min f 5.13e-07 (refined 5.02e-07), 2 refined local minima below margin/2
+   [cut] LP 1.8054837363 (290s, 85 it)  7158 tris 39 polys 15745 pts
+   refine: 126312 minima in 221s
+   cut: min f 1.02e-06 (refined 1.01e-06), 0 refined local minima below margin/2
+   [price] LP 1.8054774796 (376s, 88 it)  7458 tris 39 polys 15745 pts
+round 0: LP 1.8054774796  min f 1.02e-06  +300 triangles (best rc -7.30e-04)  +0 polys (best rc 0.00e+00)  3453s
+   refine: 128602 minima in 242s
+   cut: min f -4.52e-03 (refined -4.52e-03), 507 refined local minima below margin/2
+   [cut] LP 1.8054808042 (448s, 90 it)  7458 tris 39 polys 16252 pts
+   refine: 127728 minima in 217s
+   cut: min f -3.60e-04 (refined -3.60e-04), 143 refined local minima below margin/2
+   [cut] LP 1.8054809843 (300s, 83 it)  7458 tris 39 polys 16395 pts
+   refine: 128819 minima in 216s
+   cut: min f -2.88e-04 (refined -2.88e-04), 46 refined local minima below margin/2
+   [cut] LP 1.8054810074 (307s, 85 it)  7458 tris 39 polys 16441 pts
+   refine: 128978 minima in 215s
+   cut: min f -7.94e-06 (refined -7.98e-06), 10 refined local minima below margin/2
