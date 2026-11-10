@@ -1,0 +1,5 @@
+side (0.87, -0.34) -> (1.23, -0.34): OK  min certified ratio^2 1.010867
+side (1.23, -0.34) -> (1.23, 0.34): OK  min certified ratio^2 1.010678
+side (1.23, 0.34) -> (0.87, 0.34): OK  min certified ratio^2 1.010867
+side (0.87, 0.34) -> (0.87, -0.34): OK  min certified ratio^2 1.041591
+M0 = 1.152: contour inequality VERIFIED; the rectangle contains exactly one zero of sinc (z = 1).

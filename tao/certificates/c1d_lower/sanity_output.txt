@@ -1,0 +1,1 @@
+max |h^(z)| / Bnd over random tests: 0.5952153360735498 (must be <= 1)
