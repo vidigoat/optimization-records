@@ -1,0 +1,24 @@
+{
+ "certificate": "certificate.json",
+ "sha256": "29dcbf21a10ddb600a9866fe8ee7e7b43e4357926d74f374a8b6fbf41ada71b5",
+ "D": 1000000000064,
+ "degA_over_D": 0.8970938367192653,
+ "numerators_active": 37,
+ "mahler_normalized": "[0.2519694078602313498271383 +/- 1.22e-26]",
+ "integral_upper": "8.041248031437308924048927e-8",
+ "B_ball": "[0.2519694882727116642002275 +/- 2.84e-26]",
+ "B_upper": "0.2519694882727116642002275",
+ "tol": "1e-11",
+ "prec": 192,
+ "panels": {
+  "zero": 2077,
+  "positive": 90925,
+  "crossing": 82,
+  "bisections": 92828,
+  "max_depth": 43
+ },
+ "slowest_top_panel_s": 290.8,
+ "seconds": 452.7,
+ "target": "0.2519694883",
+ "below_target": true
+}

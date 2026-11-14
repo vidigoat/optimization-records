@@ -1,0 +1,10 @@
+init LP 0.25196963793916
+round 0 num: 234s starts 1792 cands 4 neg 4
+   + n81_0_0 deg 31 rc -7.727e-05 weight 9.034e-05
+   + n81_0_1 deg 28 rc -5.778e-05 weight 1.453e-04
+   + n81_0_2 deg 25 rc -1.475e-05 weight 5.112e-05
+   batch 4 gain 8.764e-09 -> 0.2519696291751
+round 1 num: 220s starts 1792 cands 2 neg 2
+   + n81_1_0 deg 31 rc -2.809e-05 weight 5.466e-05
+   + n81_1_1 deg 26 rc -1.423e-05 weight 1.213e-05
+   batch 2 gain 1.011e-09 -> 0.2519696281645

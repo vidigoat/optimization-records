@@ -1,0 +1,13 @@
+init LP 0.2519696281644957
+round 0 num: 239s starts 1920 cands 2 neg 2
+   + n91_0_0 deg 33 rc -2.072e-05 weight 1.282e-05
+   + n91_0_1 deg 22 rc -4.931e-06 weight 1.187e-04
+   batch 2 gain 3.944e-10 -> 0.2519696277701
+round 0 den: 981s starts 384 cands 0 neg 0 near 71 best-rc q [0.00508 0.01853 0.17511]
+round 1 num: 226s starts 1920 cands 1 neg 1
+   + n91_1_0 deg 34 rc -5.233e-05 weight 2.477e-04
+   batch 1 gain 8.582e-09 -> 0.2519696191879
+round 1 den: 982s starts 384 cands 0 neg 0 near 71 best-rc q [0.00432 0.01981 0.18623]
+round 2 num: 222s starts 1920 cands 2 neg 1
+   + n91_2_0 deg 26 rc -5.163e-06 weight 4.485e-05
+   batch 1 gain 1.039e-10 -> 0.2519696190840

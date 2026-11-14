@@ -1,0 +1,37 @@
+init LP 0.25196961908402343
+round 0 num: 227s starts 1792 cands 1 neg 1
+   + n101_0_0 deg 35 rc -7.329e-06 weight 1.775e-05
+   batch 1 gain 1.149e-10 -> 0.2519696189692
+round 1 num: 230s starts 1792 cands 1 neg 1
+   + n101_1_0 deg 35 rc -5.614e-05 weight 7.135e-05
+   batch 1 gain 2.736e-09 -> 0.2519696162334
+round 2 num: 260s starts 1792 cands 2 neg 2
+   + n101_2_0 deg 42 rc -2.468e-04 weight 5.020e-04
+   batch 2 gain 8.005e-08 -> 0.2519695361865
+round 3 num: 235s starts 1792 cands 3 neg 3
+   + n101_3_0 deg 33 rc -6.585e-05 weight 9.242e-05
+   + n101_3_1 deg 24 rc -2.439e-05 weight 5.215e-05
+   + n101_3_2 deg 26 rc -1.156e-05 weight 7.396e-05
+   batch 3 gain 4.546e-09 -> 0.2519695316405
+round 4 num: 227s starts 1792 cands 2 neg 1
+   + n101_4_0 deg 34 rc -2.551e-05 weight 7.195e-05
+   batch 1 gain 1.071e-09 -> 0.2519695305694
+round 5 num: 224s starts 1792 cands 2 neg 2
+   + n101_5_0 deg 32 rc -4.443e-05 weight 1.158e-04
+   + n101_5_1 deg 30 rc -3.407e-05 weight 2.881e-05
+   batch 2 gain 5.199e-09 -> 0.2519695253704
+round 6 num: 221s starts 1792 cands 1 neg 1
+   + n101_6_0 deg 32 rc -8.464e-06 weight 2.330e-05
+   batch 1 gain 1.341e-10 -> 0.2519695252363
+round 7 num: 208s starts 1792 cands 0 neg 0
+round 8 num: 224s starts 1792 cands 0 neg 0
+round 9 num: 214s starts 1792 cands 1 neg 1
+   + n101_9_0 deg 34 rc -6.541e-05 weight 1.669e-04
+   batch 1 gain 5.429e-09 -> 0.2519695198071
+round 10 num: 215s starts 1792 cands 1 neg 1
+   + n101_10_0 deg 28 rc -6.121e-05 weight 2.613e-04
+   batch 1 gain 1.158e-08 -> 0.2519695082260
+round 11 num: 226s starts 1792 cands 2 neg 2
+   + n101_11_0 deg 33 rc -1.501e-04 weight 2.141e-04
+   + n101_11_1 deg 28 rc -7.570e-05 weight 2.117e-04
+   batch 2 gain 1.979e-08 -> 0.2519694884388
